@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" id="home1">
 
 <head>
     <!-- Required meta tags -->
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Aldi Tegar | Portfolio</title>
 </head>
@@ -29,19 +30,19 @@
             <div class="collapse navbar-collapse mt-2" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#home1">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
+                        <a class="nav-link" href="#about-me">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Project</a>
+                        <a class="nav-link" href="#project">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -51,18 +52,19 @@
     <section id="home">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-5 text-center">
+                <div class="col-md-5 text-center" data-aos="fade-right" data-aos-duration="1000">
                     <a href="assets/img/photo/aldi2.jpg" target="blank">
                         <img src="assets/img/photo/aldi.jpg" class="photo" alt="Aldi Tegar Prakoso">
                     </a>
                 </div>
-                <div class="col-md-5 text-center hallo">
+                <div class="col-md-5 text-center hallo" data-aos="fade-left" data-aos-duration="1000">
                     <h3 class="animate__animated animate__pulse animate__infinite infinite">Hallo &#128075;</h3>
                     <p>Perkenalkan nama saya Aldi Tegar Prakoso, <br> saya seorang Web Developer.</p>
                     <p>Salam Kenal &#128522;</p>
                     <p>
-                        <i class="fas fa-facebook"></i>
-                        <i class="fas fa-instagram    "></i>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
                     </p>
                 </div>
             </div>
@@ -70,7 +72,7 @@
     </section>
 
     <section id="about-me">
-        <div class="container">
+        <div class="container" data-aos="fade-right" data-aos-duration="1000">
             <h3 class="mb-5">About Me</h3>
             <div class="row">
                 <div class="col-md-6">
@@ -101,18 +103,18 @@
         <div class="container">
             <h3 class="mb-5">Skills</h3>
             <div class="row text-center skill">
-                <div class="col-6 col-md-4 mb-5">
-                    <div class="card" style="width: 13rem;">
+                <div class="col-6 col-md-4 mb-5" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="card">
                         <img src="assets/img/logo/php.svg" class="mx-auto mt-3" alt="Bahasa Pemrograman PHP">
                         <div class="card-body">
                             <p class="card-text">
-                                Pemrograman PHP
+                                PHP
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 mb-5">
-                    <div class="card" style="width: 13rem;">
+                <div class="col-6 col-md-4 mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card">
                         <img src="assets/img/logo/codeigniter.svg" class="mx-auto mt-3" alt="Framework CodeIgniter">
                         <div class="card-body">
                             <p class="card-text">
@@ -121,8 +123,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 mb-5">
-                    <div class="card" style="width: 13rem;">
+                <div class="col-6 col-md-4 mb-5" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="card">
                         <img src="assets/img/logo/laravel.svg" class="mx-auto mt-3" alt="Framework Laravel">
                         <div class="card-body">
                             <p class="card-text">Laravel</p>
@@ -130,24 +132,24 @@
                     </div>
                 </div>
 
-                <div class="col-6 col-md-4 mb-5">
-                    <div class="card" style="width: 13rem;">
+                <div class="col-6 col-md-4 mb-5" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="card">
                         <img src="assets/img/logo/mysql.svg" class="mx-auto mt-3" alt="MySQL">
                         <div class="card-body">
                             <p class="card-text">MySQL</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 mb-5">
-                    <div class="card" style="width: 13rem;">
+                <div class="col-6 col-md-4 mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card">
                         <img src="assets/img/logo/bootstrap.svg" class="mx-auto mt-3" alt="bootstrap">
                         <div class="card-body">
                             <p class="card-text">Bootstrap</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-md-4">
-                    <div class="card" style="width: 13rem;">
+                <div class="col-6 col-md-4" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="card">
                         <img src="assets/img/logo/figma.svg" class="mx-auto mt-3" alt="Figma">
                         <div class="card-body">
                             <p class="card-text">Figma</p>
@@ -162,7 +164,7 @@
         <div class="container">
             <h3 class="mb-5">Project</h3>
             <div class="row text-center skill justify-content-center">
-                <div class="col-md-6 mb-5">
+                <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-duration="1000">
                     <div class="card">
                         <img src="assets/img/project/xylarium.PNG" class="mx-auto mt-3"> <br>
                         <div class="card-body">
@@ -175,7 +177,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-5">
+                <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-duration="1000">
                     <div class="card">
                         <img src="assets/img/project/my-article.png" class="mx-auto mt-3"> <br>
                         <div class="card-body">
@@ -190,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-5">
+                <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-duration="1000">
                     <div class="card">
                         <img src="assets/img/project/donasi.PNG" class="mx-auto mt-3">
                         <div class="card-body">
@@ -204,7 +206,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 mb-5">
+                <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-duration="1000">
                     <div class="card">
                         <img src="assets/img/project/pantau.PNG" class="mx-auto mt-3">
                         <div class="card-body">
@@ -217,7 +219,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-5">
+                <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-duration="1000">
                     <div class="card">
                         <img src="assets/img/project/movie list.PNG" class="mx-auto mt-3">
                         <div class="card-body">
@@ -230,7 +232,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
                     <div class="card">
                         <img src="assets/img/project/sass.PNG" class="mx-auto mt-3">
                         <div class="card-body">
@@ -248,37 +250,48 @@
     </section>
 
     <section id="contact">
-        <div class="container">
-            <h3 class="mb-5">Contact</h3>
-            <div class="row">
-                <div class="col">
-                    <i class="fas fa-whatsapp    "></i>
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <h3 class="mb-5">Get in touch &#129305; </h3>
+            <div class="row justify-content-between">
+                <div class="col-md-5">
+                    <p>alditegarprakoso@gmail.com</p>
                 </div>
-                <div class="col">
-
-                </div>
-                <div class="col">
-
-                </div>
-                <div class="col">
-
+                <div class="col-md-3">
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-telegram"></i>
+                    <i class="fab fa-instagram"></i>
                 </div>
             </div>
         </div>
     </section>
 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <small>Made with &#10084;&#65039; by Aldi Tegar Prakoso</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
     </script>
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
