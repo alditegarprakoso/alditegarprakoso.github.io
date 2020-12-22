@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
+
+.garis {
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
 .nav-item {
   padding-left: 15px;
 }
@@ -69,8 +76,8 @@ body {
 }
 
 .skill img {
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
 }
 
 /* Project Section */
@@ -93,7 +100,7 @@ body {
 
 #contact i {
   font-size: 30px;
-  padding-right: 15px;
+  padding-right: 10px;
   margin-top: 20px;
 }
 
@@ -105,9 +112,17 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 992px) {
+  #project img {
+    width: 320px;
+    object-fit: cover;
+  }
 
-
-
+  #skills img {
+    width: 100px;
+    height: 100px;
+  }
+}
 
 @media only screen and (max-width: 576px) {
   #home {
@@ -125,7 +140,7 @@ body {
   }
 
   #project img {
-    width: 380px;
+    width: 300px;
   }
 
   #skills img {
