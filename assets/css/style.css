@@ -75,6 +75,16 @@ body {
   height: 100px;
 }
 
+/* Experience */
+
+#experience {
+  margin-bottom: 230px;
+}
+
+#experience p {
+  font-weight: 300;
+}
+
 /* Project Section */
 #project img {
   width: 450px;
@@ -120,6 +130,10 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  #particles-js {
+    display: none;
+  }
+
   #home {
     margin-top: 150px;
     margin-bottom: 30px;
@@ -135,7 +149,8 @@ body {
   }
 
   #project img {
-    width: 300px;
+    width: 450px;
+    object-fit: cover;
   }
 
   #skills img {
