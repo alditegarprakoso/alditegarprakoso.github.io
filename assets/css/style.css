@@ -79,15 +79,20 @@ body {
 
 #experience {
   margin-bottom: 230px;
+  color: #06111e;
 }
 
 #experience p {
-  font-weight: 300;
+  font-weight: 400;
+}
+
+#experience h3 {
+  color: white;
 }
 
 /* Project Section */
 #project img {
-  width: 450px;
+  width: 445px;
   height: 225px;
   object-fit: cover;
 }
@@ -120,6 +125,7 @@ body {
 @media only screen and (max-width: 992px) {
   #project img {
     width: 320px;
+    height: 150px;
     object-fit: cover;
   }
 
@@ -149,7 +155,8 @@ body {
   }
 
   #project img {
-    width: 450px;
+    width: 325px;
+    height: 150px;
     object-fit: cover;
   }
 
