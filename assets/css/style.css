@@ -91,8 +91,19 @@ body {
 }
 
 /* Project Section */
+#project {
+  margin-bottom: 230px;
+}
+
 #project img {
   width: 445px;
+  height: 225px;
+  object-fit: cover;
+}
+
+/* Design Section */
+#design img {
+  width: 280px;
   height: 225px;
   object-fit: cover;
 }
@@ -129,6 +140,12 @@ body {
     object-fit: cover;
   }
 
+  #design img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+
   #skills img {
     width: 100px;
     height: 100px;
@@ -155,6 +172,12 @@ body {
   }
 
   #project img {
+    width: 325px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  #design img {
     width: 325px;
     height: 150px;
     object-fit: cover;
