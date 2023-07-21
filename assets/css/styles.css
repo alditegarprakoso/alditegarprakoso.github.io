@@ -120,8 +120,8 @@ img {
   display: none !important;
 }
 
-.text-white {
-  color: #fff;
+.text-experience {
+  color: var(--first-color);
 }
 
 /*=============== THEME ===============*/
