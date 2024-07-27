@@ -28,6 +28,21 @@ modalClose.forEach((mc) => {
     })
 })
 
+/*=============== PORTFOLIO MODAL ===============*/
+const modalPortfolio = document.getElementsByClassName('portfolio__modal')[0]
+const imgModal = document.getElementById('imgModal')
+const captionText = document.getElementsByClassName('portfolio__modal-title')[0]
+
+function openModal(src, altText) {
+    modalPortfolio.style.display = 'flex'
+    imgModal.src = src;
+    captionText.innerHTML = altText;
+}
+
+function closeModalPortfolio() {
+    modalPortfolio.style.display = 'none'
+}
+
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 let mixerPortfolio = mixitup('.work__container', {
     selectors: {

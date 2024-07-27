@@ -742,6 +742,63 @@ body.light-theme {
   color: var(--body-color);
 }
 
+/* Modal Portfolio */
+.portfolio__modal {
+  position: fixed;
+  display: none;
+  inset: 0;
+  background-color: hsla(var(--second-hue), 28%, 16%, 0.7);
+  padding: 2rem 1rem;
+  display: none;
+  place-items: center;
+  transition: 0.4s;
+  z-index: var(--z-modal);
+  overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__modal-content {
+  position: relative;
+  background-color: var(--body-color);
+  padding: 4.5rem 1.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.portfolio__modal-title {
+  text-align: center;
+}
+
+.portfolio__modal-title {
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+.portfolio__modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.portfolio__modal-image {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio__modal-image img {
+  width: 60%;
+}
+
+.active-modal-portfolio {
+  display: grid;
+}
+
 /*=============== TESTIMONIAL ===============*/
 
 /* Swiper class */
@@ -951,14 +1008,23 @@ body.light-theme {
   .work__item {
     font-size: var(--small-font-size);
   }
+
   .work__filters {
     column-gap: 0.25rem;
   }
+
   .qualification__data {
     gap: 0.5rem;
   }
+
   .qualification__sections {
     grid-template-columns: none;
+  }
+}
+
+@media screen and (min-width: 320px ) and (max-width: 767px) {
+  .portfolio__modal-image img {
+    width: 100%;
   }
 }
 
@@ -1003,6 +1069,7 @@ body.light-theme {
   }
   .work__img {
     width: 295px;
+    cursor: pointer;
   }
   .qualification__sections {
     grid-template-columns: 0.6fr;

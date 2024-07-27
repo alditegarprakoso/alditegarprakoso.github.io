@@ -26,6 +26,12 @@
       rel="stylesheet"
     />
 
+    <!--=============== FONT AWESOME ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -69,7 +75,7 @@
 
         <!-- Theme change button -->
         <div class="wrapper-change-button">
-          <a href="https://arpracreative.com/" target="_blank" class="my-blog"
+          <a href="https://arpracreative.netlify.app/" target="_blank" class="my-blog"
             >My Blog</a
           >
           <i class="bx bx-moon change-theme" id="theme-button"></i>
@@ -640,10 +646,15 @@
               src="assets/img/portfolio/Web/Digital Quran.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Digital Al-Quran')"
             />
 
             <h3 class="work__title">Digital Al-Qur'an</h3>
-
+            
+            <div>
+              <i class='bx bxl-vuejs'></i>
+            </div>
+            
             <a
               href="https://quran-app-arpra.netlify.app/"
               target="_blank"
@@ -658,9 +669,14 @@
               src="assets/img/portfolio/Web/LuxSpace.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'LuxSpace')"
             />
 
             <h3 class="work__title">LuxSpace</h3>
+
+            <div>
+              <i class='bx bxl-tailwind-css' ></i>
+            </div>
 
             <a href="https://luxspace-arpra.netlify.app/" class="work__button">
               Demo <i class="bx bx-right-arrow-alt work__icon"></i>
@@ -672,9 +688,15 @@
               src="assets/img/portfolio/Web/Dumbmerch.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Dumbmerch')"
             />
 
             <h3 class="work__title">Dumbmerch</h3>
+
+            <div>
+              <i class='bx bxl-react' ></i>
+              <i class='bx bxl-nodejs' ></i>
+            </div>
 
             <a href="https://dumbmerch-aldi.netlify.app/" class="work__button">
               Demo <i class="bx bx-right-arrow-alt work__icon"></i>
@@ -686,9 +708,14 @@
               src="assets/img/portfolio/Web/Dumbsound.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Dumbsound')"
             />
 
             <h3 class="work__title">Dumbsound</h3>
+            <div>
+              <i class='bx bxl-react' ></i>
+              <i class='bx bxl-nodejs' ></i>
+            </div>
           </div>
 
           <div class="work__card mix web">
@@ -696,9 +723,14 @@
               src="assets/img/portfolio/Web/My Artcile.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'My Article')"
             />
 
             <h3 class="work__title">My Article</h3>
+
+            <div>
+              <i class="fa-brands fa-php"></i>
+            </div>
 
             <a
               href="https://www.youtube.com/watch?v=jDYRhq2YAJk"
@@ -714,9 +746,14 @@
               src="assets/img/portfolio/Web/Donasi Kita.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Donasi Kita')"
             />
 
             <h3 class="work__title">Donasi Kita</h3>
+
+            <div>
+              <i class="fa-brands fa-laravel"></i>
+            </div>
 
             <a
               href="https://www.youtube.com/watch?v=wJvgXYRaP9M"
@@ -732,9 +769,14 @@
               src="assets/img/portfolio/Web/Sistem Informasi E-Vote.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'E-Voting')"
             />
 
             <h3 class="work__title">E-Voting</h3>
+
+            <div>
+              <i class="fa-brands fa-php"></i>
+            </div>
 
             <a
               href="https://www.youtube.com/watch?v=a1hWeoyvr9k"
@@ -749,9 +791,14 @@
               src="assets/img/portfolio/Web/Hero Section with SASS.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Simple Hero Section with SASS')"
             />
 
             <h3 class="work__title">Simple Hero Section with SASS</h3>
+
+            <div>
+              <i class='bx bxl-sass' ></i>
+            </div>
           </div>
 
           <div class="work__card mix web">
@@ -759,9 +806,16 @@
               src="assets/img/portfolio/Web/Movie List.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Movie List')"
             />
 
             <h3 class="work__title">Movie List</h3>
+
+            <div>
+              <i class='bx bxl-html5' ></i>
+              <i class='bx bxl-css3' ></i>
+              <i class='bx bxl-javascript' ></i>
+            </div>
           </div>
 
           <div class="work__card mix web">
@@ -769,9 +823,14 @@
               src="assets/img/portfolio/Web/Pantau Corona.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Pantau Corona')"
             />
 
             <h3 class="work__title">Pantau Corona</h3>
+            
+            <div>
+              <i class="fa-brands fa-php"></i>
+            </div>
           </div>
 
           <div class="work__card mix web">
@@ -779,9 +838,14 @@
               src="assets/img/portfolio/Web/Sistem Informasi Gerakan Disiplin Sekolah.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'SIGDS')"
             />
 
             <h3 class="work__title">SIGDS</h3>
+            
+            <div>
+              <i class="fa-brands fa-php"></i>
+            </div>
           </div>
 
           <div class="work__card mix web">
@@ -789,9 +853,14 @@
               src="assets/img/portfolio/Web/Sistem Informasi Pengolahan Data Kayu Xylarium Bogoriense.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Xylarium Bogoriense')"
             />
 
             <h3 class="work__title">Xylarium Bogoriense</h3>
+
+            <div>
+              <i class="fa-brands fa-php"></i>
+            </div>
           </div>
 
           <div class="work__card mix web">
@@ -799,9 +868,16 @@
               src="assets/img/portfolio/Web/Web Portfolio 1.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Web Portfolio v1')"
             />
 
             <h3 class="work__title">Web Portfolio v1</h3>
+
+            <div>
+              <i class='bx bxl-html5' ></i>
+              <i class='bx bxl-css3' ></i>
+              <i class='bx bxl-javascript' ></i>
+            </div>
           </div>
 
           <div class="work__card mix web">
@@ -809,9 +885,16 @@
               src="assets/img/portfolio/Web/Web Portfolio 2.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Web Portfolio v2')"
             />
 
             <h3 class="work__title">Web Portfolio v2</h3>
+
+            <div>
+              <i class='bx bxl-html5' ></i>
+              <i class='bx bxl-css3' ></i>
+              <i class='bx bxl-javascript' ></i>
+            </div>
           </div>
 
           <div class="work__card mix web">
@@ -819,9 +902,16 @@
               src="assets/img/portfolio/Web/Web Portfolio 3.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Web Portfolio v3')"
             />
 
             <h3 class="work__title">Web Portfolio v3</h3>
+
+            <div>
+              <i class='bx bxl-html5' ></i>
+              <i class='bx bxl-css3' ></i>
+              <i class='bx bxl-javascript' ></i>
+            </div>
           </div>
 
           <div class="work__card mix web">
@@ -829,9 +919,16 @@
               src="assets/img/portfolio/Web/Web Portfolio 4.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Web Portfolio v4')"
             />
 
             <h3 class="work__title">Web Portfolio v4</h3>
+
+            <div>
+              <i class='bx bxl-html5' ></i>
+              <i class='bx bxl-css3' ></i>
+              <i class='bx bxl-javascript' ></i>
+            </div>
           </div>
 
           <div class="work__card mix mobile">
@@ -839,9 +936,14 @@
               src="assets/img/portfolio/Mobile/Calculator Apps.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Calculator Apps')"
             />
 
             <h3 class="work__title">Calculator Apps</h3>
+
+            <div>
+              <i class='bx bxl-react' ></i>
+            </div>
           </div>
 
           <div class="work__card mix mobile">
@@ -849,9 +951,46 @@
               src="assets/img/portfolio/Mobile/Todo Apps.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Todo Apps')"
             />
 
             <h3 class="work__title">Todo Apps</h3>
+
+            <div>
+              <i class='bx bxl-react' ></i>
+            </div>
+          </div>
+          
+          <div class="work__card mix mobile">
+            <img
+              src="assets/img/portfolio/Mobile/Todo Apps.png"
+              alt="portfolio"
+              class="work__img"
+              onclick="openModal(this.src, 'Todo Apps')"
+            />
+
+            <h3 class="work__title">Todo Apps</h3>
+
+            <div>
+              <i class='bx bxl-react' ></i>
+            </div>
+
+            <a
+              href="https://youtu.be/h0C_jFdDrJg"
+              target="_blank"
+              class="work__button"
+            >
+              Demo Video <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+            
+            <a
+              href="https://drive.google.com/file/d/15YNPh8kfzjnJZWnxlvaO-xWgSnLbTeAr/view"
+              target="_blank"
+              class="work__button"
+            >
+              Download App <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+
           </div>
 
           <div class="work__card mix design">
@@ -859,9 +998,14 @@
               src="assets/img/portfolio/Design/Alarm App.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Alarm App')"
             />
 
             <h3 class="work__title">Alarm App</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
           </div>
 
           <div class="work__card mix design">
@@ -869,9 +1013,14 @@
               src="assets/img/portfolio/Design/ATP Tech.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'ATP Tech')"
             />
 
             <h3 class="work__title">ATP Tech</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
           </div>
 
           <div class="work__card mix design">
@@ -879,9 +1028,14 @@
               src="assets/img/portfolio/Design/Dashboard UI.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Dashboard UI')"
             />
 
             <h3 class="work__title">Dashboard UI</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
           </div>
 
           <div class="work__card mix design">
@@ -889,9 +1043,14 @@
               src="assets/img/portfolio/Design/Hijra App.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Hijra App')"
             />
 
             <h3 class="work__title">Hijra App</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
           </div>
 
           <div class="work__card mix design">
@@ -899,9 +1058,14 @@
               src="assets/img/portfolio/Design/Medianime.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Medianime')"
             />
 
             <h3 class="work__title">Medianime</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
           </div>
 
           <div class="work__card mix design">
@@ -909,9 +1073,14 @@
               src="assets/img/portfolio/Design/Pigur Mobile App.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Pigur Mobile App')"
             />
 
             <h3 class="work__title">Pigur Mobile App</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
           </div>
 
           <div class="work__card mix design">
@@ -919,9 +1088,14 @@
               src="assets/img/portfolio/Design/Pigur Web Design.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Pigur Web Design')"
             />
 
             <h3 class="work__title">Pigur Web Design</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
           </div>
 
           <div class="work__card mix design">
@@ -929,9 +1103,14 @@
               src="assets/img/portfolio/Design/SIGDS Design.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'SIGDS Design')"
             />
 
             <h3 class="work__title">SIGDS Design</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
           </div>
 
           <div class="work__card mix design">
@@ -939,9 +1118,14 @@
               src="assets/img/portfolio/Design/Travel App.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Travel App')"
             />
 
             <h3 class="work__title">Travel App</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
           </div>
 
           <div class="work__card mix design">
@@ -949,9 +1133,26 @@
               src="assets/img/portfolio/Design/Waspada Corona.png"
               alt="portfolio"
               class="work__img"
+              onclick="openModal(this.src, 'Waspada Corona')"
             />
 
             <h3 class="work__title">Waspada Corona</h3>
+
+            <div>
+              <i class="fa-brands fa-figma"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__modal">
+          <div class="portfolio__modal-content">
+            <i class="bx bx-x portfolio__modal-close" onclick="closeModalPortfolio()"></i>
+
+            <h3 class="portfolio__modal-title"></h3>
+
+            <div class="portfolio__modal-image">
+              <img id="imgModal">
+            </div>
           </div>
         </div>
       </section>
@@ -1085,7 +1286,7 @@
 
     <script>
       const scriptURL =
-        "https://script.google.com/macros/s/AKfycbwlKy5ZKWORFts5dFJpadziZ-W04xCLzuonqj5P-siW0d7JJA1tFadLDyqGM5K4xhsM/exec";
+        "https://script.google.com/macros/s/AKfycbzogGBTR9eU0xuH5a_SuPiUSMmjdlnD-0tQVzG6_mH7hbFbwawNGNFwOfw-rFp30SWj/exec";
       const form = document.forms["contact-form"];
       const btnSendMessage = document.querySelector(".button__message");
       const textLoading = document.querySelector(".text-loading");
