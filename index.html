@@ -165,7 +165,7 @@
                 <i class="bx bx-briefcase-alt about__icon"></i>
                 <div class="about__title">Experience</div>
                 <span class="about__subtitle"
-                  >2+ years working as Fullstack and Frontend Developer</span
+                  >3+ years working as Fullstack and Frontend Developer</span
                 >
               </div>
 
@@ -183,7 +183,18 @@
                 <span class="about__subtitle">Online 09:00 - 17.00</span>
               </div>
             </div>
+
             <p class="about__description">
+              Developer with 3 years of experience building interactive and
+              responsive web applications using Vue.js and React.js. Experience
+              in implementing designs with Tailwind CSS, Bootstrap, Bulma, and
+              Vanilla CSS. Experience as a Full Stack developer using
+              Node.js/Express, and as a Web Developer managing and customizing
+              CMS/E-commerce platforms using WordPress (PHP) & Shopify,
+              including plugin integration, theme development, and optimization.
+            </p>
+
+            <!-- <p class="about__description">
               I have an IT background, graduated from Diploma 3 of System
               Information. I have 2 years work experience as a Fullstack and
               Frontend Developer.
@@ -198,7 +209,7 @@
             <p class="about__description">
               Currently, I have an interest and am pursuing my professional
               career in Frontend Developer.
-            </p>
+            </p> -->
 
             <a href="#contact" class="button">Contact Me</a>
           </div>
@@ -339,21 +350,10 @@
                     <i class="bx bx-check services__modal-icon"></i>
                     <p class="services__modal-info">
                       <strong class="text-experience"
-                        >Frontend Developer</strong
+                        >Frontend / Fullstack Developer</strong
                       >
-                      - PT. Tenaga Kanggo Indonesia (February 2023 - October
+                      - PT. Tenaga Kanggo Indonesia (September 2022 - October
                       2024)
-                    </p>
-                  </li>
-
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      <strong class="text-experience"
-                        >Fullstack Developer</strong
-                      >
-                      - PT. Tenaga Kanggo Indonesia (September 2022 - February
-                      2023)
                     </p>
                   </li>
 
@@ -685,7 +685,9 @@
         <h2 class="section__title">My Portfolio</h2>
 
         <div class="work__filters">
-          <span class="work__item active-work" data-filter=".all-porto">All</span>
+          <span class="work__item active-work" data-filter=".all-porto"
+            >All</span
+          >
           <span class="work__item" data-filter=".web">Web</span>
           <span class="work__item" data-filter=".mobile">Mobile</span>
           <span class="work__item" data-filter=".design">Design</span>
@@ -779,6 +781,45 @@
 
           <div class="work__card mix all-porto web">
             <img
+              src="assets/img/portfolio/Web/CQF.png"
+              alt="portfolio"
+              class="work__img"
+              onclick="openModal(this.src, 'CQF')"
+            />
+
+            <h3 class="work__title">CQF</h3>
+            <div>
+              <i class="bx bxl-react"></i>
+              <i class="bx bxl-tailwind-css"></i>
+              <i class="fa-brands fa-laravel"></i>
+            </div>
+          </div>
+
+          <div class="work__card mix all-porto web">
+            <img
+              src="assets/img/portfolio/Web/My Todo App.png"
+              alt="portfolio"
+              class="work__img"
+              onclick="openModal(this.src, 'My Todo App')"
+            />
+
+            <h3 class="work__title">My Todo App</h3>
+            <div>
+              <i class="bx bxl-vuejs"></i>
+              <i class="bx bxl-tailwind-css"></i>
+            </div>
+
+            <a
+              href="https://my-todo-pi-drab.vercel.app/"
+              target="_blank"
+              class="work__button"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix all-porto web">
+            <img
               src="assets/img/portfolio/Web/Samsung Clone.png"
               alt="portfolio"
               class="work__img"
@@ -843,6 +884,29 @@
               class="work__button"
             >
               Demo Video <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix all-porto web">
+            <img
+              src="assets/img/portfolio/Web/Tic Tac Toe.png"
+              alt="portfolio"
+              class="work__img"
+              onclick="openModal(this.src, 'Tic Tac Toe.png')"
+            />
+
+            <h3 class="work__title">Tic Tac Toe.png</h3>
+
+            <div>
+              <i class="fa-brands fa-react"></i>
+            </div>
+
+            <a
+              href="https://react-tic-tac-toe-woad.vercel.app/"
+              target="_blank"
+              class="work__button"
+            >
+              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
             </a>
           </div>
 
